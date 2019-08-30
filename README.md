@@ -1,6 +1,6 @@
 # @gingerhendrix/react-animation-controls
 
-> React component for controlling animations 
+> React component for controlling animations
 
 [![NPM](https://img.shields.io/npm/v/@gingerhendrix/react-animation-controls.svg)](https://www.npmjs.com/package/@gingerhendrix/react-animation-controls) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -15,12 +15,15 @@ npm install --save @gingerhendrix/react-animation-controls
 ```tsx
 import * as React from 'react'
 
-import MyComponent from '@gingerhendrix/react-animation-controls'
+import AnimationControls from '@gingerhendrix/react-animation-controls'
+import 'rc-slider/assets/index.css';
 
-class Example extends React.Component {
+export default class App extends Component {
   render () {
     return (
-      <MyComponent />
+      <div>
+        <AnimationControls />
+      </div>
     )
   }
 }

@@ -32,7 +32,9 @@ export default {
     }),
     url(),
     svgr(),
-    resolve(),
+    resolve({
+      browser: true,
+    }),
     typescript({
       rollupCommonJSResolveHack: true,
       clean: true

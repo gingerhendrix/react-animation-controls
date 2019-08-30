@@ -21,7 +21,12 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/rc-slider": "^8.6.5",
+    "indexof": "^0.0.1",
+    "rc-slider": "^8.6.13",
+    "react-icons": "^3.7.0"
+  },
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",

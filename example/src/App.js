@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from '@gingerhendrix/react-animation-controls'
+import AnimationControls from '@gingerhendrix/react-animation-controls'
+import 'rc-slider/assets/index.css';
 
 export default class App extends Component {
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <AnimationControls />
       </div>
     )
   }
